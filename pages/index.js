@@ -15,13 +15,10 @@ export default function Home() {
           Welcome to <span className={styles.accent}>Lighthouse!</span>
         </h1>
 
-        {/** Edit Below This Line */}
-
         <div className={styles.placeholder}>
           Replace this div with your component
         </div>
-
-        {/** Edit Above This Line */}
+        
       </main>
 
       <Footer />
