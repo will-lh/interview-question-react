@@ -1,34 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+#  Instructions
 
-First, run the development server:
+You are tasked with creating a very important feature that allows users to educated themselves about undeniable facts.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Your coworker just finished setting up fetching these facts from an api in a previous ticket. See `getServerSideProps` in `pages/index.js`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Your acceptance criteria for this feature is as follows:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+ - [ ] When the page loads, the user can see 5 life-altering facts
+ - [ ] There is a button above the list that allows the user to sort the facts by created date in both DESC and ASC order
+ - [ ] There is a button next to each fact that allows the user to favorite that fact. Favorited facts should always be shown at the top even if the facts are being sorted in DESC/ASC order.
+ - [ ] Because these facts are so important, we must display them with alternating caps. tHiS iS aN eXaMpLe Of AlTeRnAtInG cApS
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Tips
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* Don't worry too much about styling. Just add styles to make it look readable and organized but don't feel the need to make it look perfect.
+* If you are unfamiliar with SSR (server side rendering) you can look at the [docs](https://nextjs.org/docs/basic-features/data-fetching/get-server-side-props#using-getserversideprops-to-fetch-data-at-request-time) for `getServerSideProps`.
+* Feel free to ask us questions at any time!
